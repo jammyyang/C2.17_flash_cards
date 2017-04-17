@@ -1,0 +1,21 @@
+.logo {
+    float:right;
+    margin-top: 5%;
+}
+
+.messageDiv, .message {
+    height: 100%;
+
+}
+
+.messageDiv {
+    display: table;
+    margin: auto;
+    text-align: center;
+
+}
+
+.message {
+    display: table-cell;
+    vertical-align: middle;
+}
