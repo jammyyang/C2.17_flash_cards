@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flash Cards Page 6</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body {
+            font-size: 2.5vmin;
+        }
+        .nav p {
+            display: inline-block;
+            width: 20vw;
+            Text-align: center;
+            padding: 5px 0;
+            border: 1px solid black;
+        }
+        .nav .home {
+            background-color: #2783e5;
+        }
+        .nav .glyphicon.glyphicon-cog {
+            float: right;
+            color: #2783e5;
+            margin-right: 5vw;
+            font-size: 50px;
+        }
+        .my-deck .glyphicon.glyphicon-star.dif {
+            color: dodgerblue;
+        }
+        .my-deck {
+            margin-left: 40px;
+            margin-right: 13px;
+            margin-bottom: 25px;
+            float: left;
+        }
+        .row {
+            height: 16vh;
+            border: 1px solid black;
+            width: 70vw;
+        }
+        .col-xs-2, .col-xs-4, .col-xs-12 {
+            border: 1px solid black;
+            height: 16vh;
+        }
+        .row-1 {
+            background-color: #bfc0c1;
+        }
+        .row-2 {
+            background-color: #6ad9f2;
+        }
+        .row-3 {
+            background-color: #ededed;
+        }
+        .row-3 .btn.btn-success {
+            font-size: 3vmin;
+            margin: 2.5vh 1.5vw;
+            padding: 1vh 1vw;
+        }
+        .btn.btn-success.btn-01 {
+            width: 20vw;
+        }
+        .btn.btn-success.btn-02 {
+            width: 35vw;
+        }
+        .info-section {
+            width: 70vw;
+        }
+        .info-section > .col-xs-7 {
+            border: none;
+            height: auto;
+        }
+        .deck-info {
+            clear: both;
+            border: 1px solid black;
+            background-color: #bfc0c1;
+            width: 100%;
+            margin: 2vh 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <p class="home">Home</p><!--
+        --><p class="shelf">My Deck</p><!--
+        --><p class="">Deck I Picked</p>
+        <div class="glyphicon glyphicon-cog"></div>
+    </div>
+    <div class="my-deck">
+        <div class="row row-1">
+            <div class="col-xs-4">
+                <span class="glyphicon glyphicon-triangle-bottom"></span>
+                Decks
+            </div>
+            <div class="col-xs-4">
+                <span class="glyphicon glyphicon-triangle-bottom"></span>
+                Reviews
+            </div>
+            <div class="col-xs-4">
+                <span class="glyphicon glyphicon-triangle-bottom"></span>
+                Options
+            </div>
+        </div>
+        <div class="row row-2">
+            <div class="col-xs-4">Deck1</div>
+            <div class="col-xs-4">
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star dif"></span>
+                <span class="glyphicon glyphicon-star dif"></span>
+            </div>
+            <div class="col-xs-2">Study</div>
+            <div class="col-xs-2">Edit / Delete</div>
+        </div>
+        <div class="row row-3">
+            <div class="col-xs-12">
+                <button class="btn btn-success btn-01">Entire Deck</button>
+                <button class="btn btn-success btn-02">Partitioned Deck Option</button>
+            </div>
+        </div>
+    </div>
+    <div class="info-section">
+        <div class="col-xs-offset-3 col-xs-7">
+            <div class="deck-info">DECK INFO: # CARDS</div>
+            <div class="deck-info">DECK INFO: SUBJ ATTRIBUTES</div>
+            <div class="deck-info">DECK INFO: SUBJ ATTRIBUTES</div>
+            <div class="deck-info">DECK INFO: SUBJ ATTRIBUTES</div>
+            <div class="deck-info">DECK INFO: SUBJ ATTRIBUTES</div>
+        </div>
+    </div>
+</body>
+</html>
