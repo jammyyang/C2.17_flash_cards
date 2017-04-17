@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Card</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        main{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Create deck</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <form>
+        <input type="text" name="cardInfo" placeholder="SUBJECT NAME"><br>
+        <input type="text" name="cardInfo" placeholder="Subj info (book)"><br>
+        <input type="text" name="cardInfo" placeholder="Subj info (author)"><br>
+        <input type="button" name="cardInfo" value="ADD BTN IF YOU NEED MORE">
+    </form>
+    <section>
+        <input type="text" placeholder="ENTER TERM"><button type="button" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"> Add Card</span></button><br>
+        <p>TERM</p>
+        <input type="text" placeholder="Enter Definition"><button type="button" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"> Clear Field</span></button><br>
+        <p>Definition</p>
+    </section>
+    <button type="button" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"> Submit</span></button>
+</main>
+</body>
+</html>
